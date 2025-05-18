@@ -12,11 +12,11 @@ import InvestorGrid from '../components/InvestorGrid.astro';
 const projects = await getCollection('projects');
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="GMMS Labs">
 	<Header gridBg>
-		<small class="small">can you believe this text is so small?</small>
-		<h2 class="text-12 leading-12 lg:text-20 lg:leading-20"><span class="font-mono">NAID</span> - A template for doers</h2>
-		<p class="subtitle w-85% lg:w-50% mx-auto mt-5">A short manifesto about how this project is going to change the world.</p>
+    <!-- <small class="small">can you believe this text is so small?</small> -->
+		<h2 class="text-12 leading-12 lg:text-20 lg:leading-20"><span class="font-mono">GMMS Labs</span> - Pioneering Open Innovation in Telecom Infrastructure</h2>
+    <p class="subtitle w-85% lg:w-50% mx-auto mt-5">Open Source. Decentralised. Deployable. Scalable.<br/>Built for Consumer Privacy and Security</p>
 	</Header>
 	<main>
 		<Section index source="projects.json" fullWidthBorder>
@@ -36,7 +36,7 @@ const projects = await getCollection('projects');
 				</div>
 			</div>
 		</Section>
-		<SectionSpacer size="md" />
+    <!-- <SectionSpacer size="md" /> -->
 		<Section fullWidthBorder={false}>
 			<h2 class="text-xl my-10">Our projects are trusted. By everyone? You bet! Names you recognize? Probably! Used all over the world? Absolutely!</h2>
 		</Section>
