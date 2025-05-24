@@ -21,7 +21,7 @@ const projects = await getCollection('projects');
 	<main>
 		<Section index source="projects.json" fullWidthBorder>
 			<h2 class="title">Projects</h2>
-			<p class="subtitle-small">A short blurb about the projects you are deciding to list here and what they are about. Make it pithy and worth investing in.</p>
+			<p class="subtitle-small">From privacy-preserving telecom protocols to blockchain-based network coordination and trusted hardware designs, our projects tackle the core technical challenges of next-gen connectivity. Each repo is a building block in a modular, open-source telecom stack designed for resilience, security, and global scalability.</p>
 			<ul class="my-5 project-list ignore-content-container border-y-1 border-y-gray-200 border-y-dotted">
 				{projects.map((proj: any) => <ProjectCard {...proj.data} />)}
 			</ul>
