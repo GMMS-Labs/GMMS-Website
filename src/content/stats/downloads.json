@@ -1,12 +1,12 @@
 [
     {
-        "value":41,
-        "unit": "M+",
-        "title":"Weekly NPM Downloads"
+        "value":7,
+        "by":0.2,
+        "unit": "+",
+        "title":"Ongoing FOSS Projects"
     },
     {
         "value":40.6,
-        "by":1.015,
         "unit":"K",
         "title": "Total GitHub Stars"
     },
