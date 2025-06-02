@@ -27,18 +27,6 @@ const stats = defineCollection({
     schema: z.array(downloadsIndividual)
 })
 
-const investors = defineCollection({
-    type: 'data',
-    schema: z.array(
-        z.object({
-            name: z.string(),
-            type: z.enum(['major','minor']),
-            subtitle: z.optional(z.string()),
-            logo: z.optional(z.string())
-        })
-    )
-})
-
 const showcase = defineCollection({
     type: 'data',
     schema: z.array(
@@ -47,6 +35,7 @@ const showcase = defineCollection({
             type: z.enum(['project','techArea']),
             subtitle: z.optional(z.string()),
             logo: z.optional(z.string())
+            link: z.optional(z.string())
         })
     )
 })
@@ -87,7 +76,6 @@ const posts = defineCollection({
 export const collections = {
     projects,
     stats,
-    investors,
     showcase,
     posts,
     authors
