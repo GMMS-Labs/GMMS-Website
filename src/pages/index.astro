@@ -7,7 +7,6 @@ import { getCollection } from 'astro:content';
 import ProjectCard from '../components/ProjectCard.astro';
 import SectionSpacer from '../components/SectionSpacer.astro';
 import StatsGrid from '../components/StatsGrid.astro';
-import InvestorGrid from '../components/InvestorGrid.astro';
 import ShowcaseGrid from '../components/ShowcaseGrid.astro';
 
 const projects = await getCollection('projects');
@@ -59,8 +58,8 @@ const projects = await getCollection('projects');
 		<SectionSpacer size="md" />
 		<Section index source="showcase.md" fullWidthBorder>
 			<div class="pb-12.5">
-				<h2 class="title">People who give us money!</h2>
-				<p class="subtitle-small md:w-[50%]">There's literally dozens of them, and they all want to be listed below to get some sort of credit for our work.</p>
+				<h2 class="title">Projects We Ship & Tools We Use!</h2>
+				<p class="subtitle-small md:w-[50%]">Some of our long term major ventures and the technologies we use.</p>
 			</div>
 			<ShowcaseGrid />
 		</Section>
