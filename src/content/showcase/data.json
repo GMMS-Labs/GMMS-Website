@@ -1,15 +1,20 @@
 [
   {
     "type": "project",
-    "name":"OpenRSP"
+    "name":"OpenRSP",
+    "subtitle":"Placeholder",
+    "link":"https://github.com/GMMS-Labs/OpenRSP-SBC25-WIP"
   },
   {
     "type":"project",
-    "name":"ProtecTeeSIM"
+    "name":"ProtecTeeSIM",
+    "subtitle":"Placeholder",
+    "link":"https://github.com/GMMS-Labs"
   },
   {
     "type":"techArea",
-    "name":"Cryptography"
+    "name":"Cryptography",
+    "subtitle":"Placeholder"
   },
   {
     "type":"techArea",
