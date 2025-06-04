@@ -34,7 +34,7 @@ const showcase = defineCollection({
             name: z.string(),
             type: z.enum(['project','techArea']),
             subtitle: z.optional(z.string()),
-            logo: z.optional(z.string())
+            logo: z.optional(z.string()),
             link: z.optional(z.string())
         })
     )
