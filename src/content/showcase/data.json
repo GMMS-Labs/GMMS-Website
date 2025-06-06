@@ -2,42 +2,53 @@
   {
     "type": "project",
     "name":"OpenRSP",
-    "subtitle":"Placeholder",
+    "subtitle":"Open-Source Implementation of GSMA Consumer Remote SIM Provisioning Protocol",
     "link":"https://github.com/GMMS-Labs/OpenRSP-SBC25-WIP"
   },
   {
     "type":"project",
     "name":"ProtecTeeSIM",
-    "subtitle":"Placeholder",
+    "subtitle":"hreat Modelling of Consumer Telecommunications Hardware and Cryptographic Operations",
     "link":"https://github.com/GMMS-Labs"
   },
   {
     "type":"techArea",
     "name":"Cryptography",
-    "subtitle":"Placeholder"
+    "subtitle":"Secure Communication Protocols and Infrastructure Using State-Of-The-Art Cryptographic Techniques"
   },
   {
     "type":"techArea",
-    "name":"Blockchain"
+    "name":"Blockchain",
+    "subtitle":"Blockchain Technology for Secure, Transparent, and Efficient Data Management and Transactions"
   },
   {
     "type":"techArea",
-    "name":"5G & IoT"
+    "name":"5G & IoT",
+    "subtitle":"IoT-enabled Solutions for Various Applications such as Smart Agriculture, Healthcare, Education, and Governance"
   },
   {
     "type":"techArea",
-    "name":"Zero-Knowledge Proofs"
+    "name":"Zero-Knowledge Proofs",
+    "subtitle":"ZKP Solutions for Privacy-Preserving Authentication Systems"
   },
   {
     "type":"techArea",
-    "name":"Telecommunication Infrastructure"
+    "name":"Telecommunication Infrastructure",
+    "subtitle":"URLLC and mMTC Aspects of 5G to Enhance Rural Connectivity and Services"
   },
   {
     "type":"techArea",
-    "name":"Decentralised Identity Systems"
+    "name":"Decentralised Identity Systems",
+    "subtitle":"User-controlled Digital Identity Systems Without Central Authorities"
   },
   {
     "type":"techArea",
-    "name":"IT Consultation & Software Development"
+    "name":"Trusted Execution Environments",
+    "subtitle":"Hardware-isolated Secure Processing for Sensitive Operations"
+  },
+  {
+    "type":"techArea",
+    "name":"Cybersecurity",
+    "subtitle":"Comprehensive Penetration Testing and SOC Solutions for Critical Communication Systems"
   }
 ]
