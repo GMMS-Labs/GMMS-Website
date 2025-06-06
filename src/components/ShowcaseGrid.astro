@@ -31,9 +31,9 @@ const showcasesReducedByType = showcases.reduce((acc, { data }: { data: showcase
                                     {name}
                                 </a>
                             ) : (
-                                <h2 class="text-xl">{name}</h2>
+                                <h2 class="text-xl font-medium">{name}</h2>
                             )}
-                            {subtitle && <small class="small block mt-2">{subtitle}</small>}
+                            {subtitle && <small class="small block mt-2 w-[60%] mx-auto">{subtitle}</small>}
                         </div>
                     </li>
                 ))}
@@ -50,7 +50,7 @@ const showcasesReducedByType = showcases.reduce((acc, { data }: { data: showcase
                                     {name}
                                 </a>
                             ) : (
-                                <h3 class="text-lg">{name}</h3>
+                                <h2 class="text-xl font-medium">{name}</h2>
                             )}
                             {subtitle && <small class="small block mt-2">{subtitle}</small>}
                         </div>
