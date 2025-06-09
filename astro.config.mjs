@@ -4,7 +4,10 @@ import Unocss from 'unocss/astro';
 
 import icon from 'astro-icon';
 
+import cloudflare from '@astrojs/cloudflare';
+
 // https://astro.build/config
 export default defineConfig({
-    integrations: [Unocss({ injectReset: true, injectEntry: true }), icon()]
+  integrations: [Unocss({ injectReset: true, injectEntry: true }), icon()],
+  adapter: cloudflare()
 });
