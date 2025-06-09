@@ -1,5 +1,5 @@
 {
-  "name": "my-astro-app",
+  "name": "gmms-web",
   "main": "./dist/_worker.js/index.js",
   "compatibility_date": "2025-06-09",
   "compatibility_flags": ["nodejs_compat"],
